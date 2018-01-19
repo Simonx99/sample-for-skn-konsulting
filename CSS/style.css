@@ -162,7 +162,11 @@ b {
     top: 25vh;
     right: 0;
 }
-.no-display{display: none;}
+
+.no-display {
+    display: none;
+}
+
 .social-collapse {
     width: 30px;
     height: 30px;
