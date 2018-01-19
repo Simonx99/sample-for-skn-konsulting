@@ -136,6 +136,7 @@ b {
 .list-group-item.active {
     background-color: #607D8B;
     border-color: #476979;
+    border-radius: 0;
 }
 
 .footer-container {}
@@ -159,7 +160,7 @@ b {
     position: fixed;
     height: 120px;
     width: 60px;
-    top: 25vh;
+    top: 190px;
     right: 0;
 }
 
