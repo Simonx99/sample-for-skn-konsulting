@@ -1,0 +1,179 @@
+/* 
+
+f
+o
+n
+t
+y
+
+font-family: 'Raleway', sans-serif;
+font-family: 'Pacifico', cursive;
+*/
+
+body,
+page {
+    background-color: ;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+
+::selection {
+    background-color: #009688;
+    color: white;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #287972;
+}
+
+.color-container {
+    background-color: #BDBDBD;
+
+
+}
+
+.pd-0 {
+    padding: 0;
+}
+
+
+.navbar-brand {
+    position: relative;
+    top: -5px;
+    max-width: calc(100% - 80px);
+}
+
+
+
+.nav__position {
+    padding-right: 24px;
+
+}
+
+.nav-link:hover {
+
+    border-top: 3px solid #009688;
+
+    margin-top: -3px;
+    width: auto;
+}
+
+@media only screen and (max-width:991px) {
+    .nav-link:hover {
+        border-top: none;
+    }
+}
+
+.position__highlight--active {
+    background-color: #009688;
+}
+
+.nav-link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+
+.nav__link:hover {}
+
+.nav__link:active {}
+
+.container {}
+
+.btn-light {
+    padding-right: 100px;
+}
+
+.page-header {
+    padding-top: 60px;
+}
+
+.header-h1 {
+    margin-top: 75px;
+}
+
+.header-p {
+    ;
+}
+
+b {
+    color: #00796B
+}
+
+.lead-logo {
+    max-width: 250px;
+    max-height: 200px;
+    height: auto;
+    background: #009688;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.projects-img {
+    max-height: 400px;
+    height: auto;
+}
+
+.projects-h3 {
+    background-color: #009688;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.projects-p {
+    margin: 8px 0 0 0;
+    min-height: 250px;
+}
+
+.list-group-item.active {
+    background-color: #607D8B;
+    border-color: #476979;
+}
+
+.footer-container {}
+
+.list-1elmnt {
+    margin-top: 15px;
+}
+
+.list-1elmnt:visited a,
+.list-1elmnt a {
+    color: white;
+}
+
+.footer-sponsors {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.social {
+    z-index: 999;
+    position: fixed;
+    height: 120px;
+    width: 60px;
+    top: 25vh;
+    right: 0;
+}
+.no-display{display: none;}
+.social-collapse {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: transparent;
+    color: #767676;
+    font-weight: 900;
+}
+
+.block {
+    height: 5px;
+    width: 1px;
+    display: block;
+}
